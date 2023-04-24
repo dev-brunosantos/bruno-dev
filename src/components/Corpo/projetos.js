@@ -13,6 +13,7 @@ export const Projetos = () => {
                 <Cards img={duka} titulo="Restaurante Duka Sushi"/>
                 <Cards img={teste} titulo="Restaurante Duka Sushi"/>
                 <Cards img={teste2} titulo="Restaurante Duka Sushi"/>
+                <Cards img={teste} titulo="Restaurante Duka Sushi"/>
         </section>
     )
 }
