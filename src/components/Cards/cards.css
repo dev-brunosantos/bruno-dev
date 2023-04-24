@@ -1,0 +1,46 @@
+.card {
+    width: 40%;
+    height: 20vh;
+    position: relative;
+    border: solid red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.card .texto {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: var(--branco);
+    text-shadow: 0px 1px var(--azul-escuro);
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.356);;
+}
+
+.texto:hover {
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.texto:not(:hover) {
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.botao-ver {
+    background-color: var(--azul-escuro);
+    width: 80%;
+    border: solid ;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+

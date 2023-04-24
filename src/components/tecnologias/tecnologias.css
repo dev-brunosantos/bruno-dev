@@ -1,6 +1,6 @@
 .tecnologias {
     width: 100%;
-    height: 18vh;
+    height: 20vh;
     margin: 20px 0;
     border: 4px double var(--branco);
     border-radius: 10px;
@@ -12,7 +12,12 @@
 
 .tecnologias-icones {
     width: 90%;
+    height: 10rem;
     overflow: auto;
+}
+
+.tecnologias-icones::-webkit-scrollbar {
+    display: none;
 }
 
 .tecnologias-usadas {

@@ -1,4 +1,4 @@
-import { Tecnologias } from '../tecnologias'
+import { Tecnologias } from '../Tecnologias'
 
 const fotoBruno = require('../../img/bruno-santos.png')
 
