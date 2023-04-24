@@ -6,7 +6,7 @@
     z-index: 100;
 }
 
-.home, .resumo {
+.home, .resumo, .projetos {
     width: 100%;
     min-height: 80vh;
     position: relative;
@@ -54,7 +54,9 @@
 
 .resumo {
     padding: 15px;
+    border-bottom: 2px solid red;
     background-color: rgb(83, 79, 79);
+    /* background-image: linear-gradient(to bottom, rgb(83, 79, 79) 70%, var(--azul-claro)); */
 }
 
 .resumo-img {
@@ -75,4 +77,8 @@
     font-size: 1.4rem;
     text-shadow: 1px 0px var(--azul-escuro);
     text-align: center;
+}
+
+.projetos {
+    background-color: var(--azul-claro);
 }

@@ -1,8 +1,10 @@
+import { Tecnologias } from '../tecnologias'
+
 const fotoBruno = require('../../img/bruno-santos.png')
 
 const Sobre = () => {
     return (
-        <div id="sobre" className="sobre">
+        <section id="sobre" className="sobre">
             <div className="resumo centralizar alinhar">
                 <div className="resumo-img">
                     <img src={fotoBruno}></img>
@@ -17,8 +19,10 @@ const Sobre = () => {
                         Comecei a realizar uma pesquisa e encontrei muitos conteudos sobres programação.
                     </p>
                 </div>
+
+                <Tecnologias />
             </div>
-        </div>
+        </section>
     )
 }
 
